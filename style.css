@@ -1,0 +1,377 @@
+:root {
+  --main-color: rgba(223, 255, 222, 1);
+  --main-button: rgba(1, 43, 58, 1);
+  --main-button-hover: rgba(0, 73, 99, 1);
+  --secundary-color: rgba(0, 121, 120, 1);
+  --red-color: rgba(255, 75, 69, 1);
+  --primary-letter: "Montserrat Alternates", sans-serif;
+  --secundary-letter: "Montserrat", sans-serif;
+  --text-main-title: 38px;
+  --text-secundary-title: 30px;
+  --text-body: 16px;
+  --text-card-title: 18px;
+  --text-card-body: 13px;
+  --color-card-button: rgba(135, 248, 174, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--text-body);
+  color: var(--main-button);
+}
+
+.title {
+  font-family: var(--primary-letter);
+  font-size: var(--text-main-title);
+}
+
+.title-secundary {
+  font-family: var(--primary-letter);
+  font-size: var(--text-secundary-title);
+  font-weight: 700;
+}
+
+.title-secundary-superbold {
+  font-family: var(--primary-letter);
+  font-size: var(--text-secundary-title);
+  font-weight: 900;
+}
+
+.title-article {
+  font-family: var(--primary-letter);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.text-small {
+  font-family: var(--secundary-letter);
+  font-size: var(--text-body);
+}
+
+.text-card-title {
+  font-family: var(--secundary-letter);
+  font-size: var(--text-card-title);
+  font-weight: 600;
+  color: white;
+}
+
+.text-card-body {
+  font-family: var(--secundary-letter);
+  font-size: var(--text-card-body);
+  font-weight: 600;
+  color: white;
+}
+
+section,
+header,
+footer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1000px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header,
+.section01,
+.section-05,
+.section07 {
+  background: var(--main-color);
+}
+
+header {
+  height: 84px;
+  position: fixed;
+}
+
+.header-div-container,
+.footer-div-container {
+  height: 100%;
+  justify-content: space-between;
+}
+
+.section01-div-container {
+  margin-top: 40px;
+  gap: 140px;
+  height: 580px;
+}
+
+.section01-description,
+.section07-description {
+  align-items: flex-start;
+  width: 420px;
+  gap: 30px;
+}
+
+.section01-description > img {
+  width: 410px;
+}
+
+.mainbutton {
+  background-color: var(--main-button);
+  font-family: var(--secundary-letter);
+  font-weight: bold;
+  font-size: var(--text-body);
+  width: 260px;
+  height: 48px;
+  color: white;
+  border: none;
+}
+
+.mainbutton:hover {
+  background-color: var(--main-button-hover);
+  cursor: pointer;
+}
+
+.section02-div-container__text,
+.section02-div-container__SocialMedia {
+  width: 50vw;
+  height: 210px;
+}
+
+.section02-div-container__text {
+  background-color: var(--secundary-color);
+  align-items: flex-end;
+}
+
+.section02-div-container__text > h2 {
+  width: 500px;
+  color: white;
+}
+
+.section02-div-container__SocialMedia {
+  background-color: var(--main-button-hover);
+  align-items: flex-start;
+}
+
+.section02-div-container__SocialMedia > div {
+  margin-left: -80px;
+  width: 500px;
+  align-items: flex-end;
+  gap: 25px;
+}
+
+.section02-div-container__SocialMedia > div > img {
+  width: 300px;
+}
+
+.section03 {
+  margin-top: 50px;
+}
+
+.section03-container {
+  width: 1050px;
+}
+
+.article-container {
+  width: 1000px;
+  margin-top: 40px;
+  justify-content: flex-start;
+}
+
+.article-container-large {
+  width: 100%;
+}
+
+.section03-image-container {
+  height: 340px;
+}
+
+.article-container__info,
+.article-container-three-sections {
+  padding: 30px;
+  gap: 140px;
+}
+
+.container-three-sections-image {
+  height: 300px;
+}
+
+.article-container__info > div {
+  height: 480px;
+  width: 355px;
+  justify-content: flex-start;
+}
+
+.article-container-three-sections {
+  gap: 60px;
+}
+
+.container-three-sections {
+  width: 300px;
+  height: 500px;
+  justify-content: flex-start;
+}
+
+.container-three-sections > img {
+  width: 250px;
+}
+
+.section-04 {
+  background-color: var(--main-button);
+}
+
+.section-04-container {
+  align-items: flex-start;
+}
+
+.section-04__icon-orange-small {
+  width: 50px;
+  margin-top: 60px;
+}
+
+.section-04__icon-orange-small > img {
+  width: 40px;
+}
+
+.section-04__text {
+  align-items: flex-start;
+  width: 950px;
+  font-weight: 600;
+  gap: 18px;
+  background-color: var(--main-button);
+  height: 320px;
+}
+
+.text-light-blue {
+  color: var(--main-color);
+}
+
+.text-orange {
+  color: var(--red-color);
+}
+
+.section-05 {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.section-05-div-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 290px);
+  justify-content: space-between;
+  gap: 35px;
+  margin: 60px 0 20px 0;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+sup {
+  vertical-align: top;
+}
+
+.card-button {
+  background-color: var(--color-card-button);
+  font-family: var(--secundary-letter);
+  font-weight: 600;
+  font-size: var(--text-body);
+  width: 100%;
+  height: 48px;
+  color: var(--main-button);
+  border: none;
+}
+
+.card-button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.card-price {
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 494px;
+  background-color: var(--main-button-hover);
+  padding: 25px;
+  color: white;
+  gap: 15px;
+}
+.card-price > div {
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.card-price > div > div > p {
+  padding: 5px 0;
+}
+
+.unique-medium-text {
+  font-weight: 700;
+  font-family: var(--secundary-letter);
+  font-size: 24px;
+}
+
+span {
+  color: rgb(0, 166, 138);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.section-06-div-container {
+  display: grid;
+  margin: 0 0 40px 0;
+}
+
+.section-06-div-container > h2 {
+  padding: 2.5rem;
+}
+
+.section-06-container-cards {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 235px);
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.section-06-container-cards > div > img {
+  width: 185px;
+}
+
+.section07-div-container {
+  gap: 140px;
+  height: 380px;
+}
+
+.section07-description > img {
+  width: 100%;
+}
+
+.section-08-container {
+  height: 240px;
+  gap: 30px;
+}
+
+footer {
+  height: 69px;
+  width: 100vw;
+  background-color: var(--main-button);
+}
+
+.text-footer {
+  color: white;
+  font-size: 12px;
+  font-family: var(--secundary-letter);
+}
