@@ -1,0 +1,23 @@
+{
+  "name": "hootsuite-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jersabell/Hootsuite-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jersabell/Hootsuite-Clone/issues"
+  },
+  "homepage": "https://github.com/Jersabell/Hootsuite-Clone#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
