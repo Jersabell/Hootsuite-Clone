@@ -1,0 +1,23 @@
+{
+    "charlas": [{
+        "id": "01",
+        "name": "charla01",
+        "fecha": {
+            "dia": "11",
+            "mes": "noviembre"
+        },
+        "hora": "10:00 am",
+        "ubicacion": "Av.Alameda, San Marcos 11."
+    },
+    {
+        "id": "02",
+        "name": "charla02",
+        "fecha": {
+            "dia": "15",
+            "mes": "noviembre"
+        },
+        "hora": "10:00 am",
+        "ubicacion": "Av.Alameda, San Marcos 11."
+    }
+    ]
+}
